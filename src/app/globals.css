@@ -3,10 +3,10 @@
 :root {
   --background: #0f0523;
   --foreground: #fbf8ff;
-  --panel: color-mix(in srgb, #ffffff 14%, transparent);
-  --panel-strong: color-mix(in srgb, #ffffff 22%, transparent);
+  --panel: color-mix(in srgb, #ffffff 24%, transparent);
+  --panel-strong: color-mix(in srgb, #ffffff 34%, transparent);
   --ink: #f8f5ff;
-  --muted: #d8d0ea;
+  --muted: #f1ecfb;
   --accent: #7cf5d8;
   --danger: #ff8aa8;
 }
@@ -42,7 +42,7 @@ body::before {
       color-mix(in srgb, #ffffff 6%, transparent) 0 1px,
       transparent 1px 34px
     );
-  opacity: 0.18;
+  opacity: 0.1;
   z-index: -1;
 }
 
@@ -58,8 +58,8 @@ select {
     width: 100%;
     min-height: 2.8rem;
     border-radius: 0.85rem;
-    border: 1px solid color-mix(in srgb, #ffffff 24%, transparent);
-    background: color-mix(in srgb, #ffffff 9%, transparent);
+    border: 1px solid color-mix(in srgb, #ffffff 36%, transparent);
+    background: color-mix(in srgb, #ffffff 16%, transparent);
     padding: 0.72rem 0.92rem;
     font-size: 0.94rem;
     font-weight: 600;
@@ -73,29 +73,29 @@ select {
   }
 
   .field::placeholder {
-    color: color-mix(in srgb, #f8f5ff 50%, transparent);
+    color: color-mix(in srgb, #f8f5ff 72%, transparent);
     font-weight: 500;
   }
 
   .field:focus {
     transform: translateY(-1px);
-    border-color: color-mix(in srgb, #7cf5d8 64%, transparent);
-    background: color-mix(in srgb, #ffffff 13%, transparent);
+    border-color: color-mix(in srgb, #7cf5d8 70%, transparent);
+    background: color-mix(in srgb, #ffffff 20%, transparent);
     box-shadow:
       0 10px 22px color-mix(in srgb, #0a0321 72%, transparent),
       0 0 0 3px color-mix(in srgb, #7cf5d8 26%, transparent);
   }
 
   .glass {
-    border: 1px solid color-mix(in srgb, #ffffff 20%, transparent);
+    border: 1px solid color-mix(in srgb, #ffffff 30%, transparent);
     border-radius: 1.1rem;
     background: linear-gradient(
       170deg,
-      color-mix(in srgb, #ffffff 16%, transparent) 0%,
-      color-mix(in srgb, #ffffff 8%, transparent) 100%
+      color-mix(in srgb, #ffffff 26%, transparent) 0%,
+      color-mix(in srgb, #ffffff 16%, transparent) 100%
     );
     box-shadow:
-      inset 0 1px 0 color-mix(in srgb, #ffffff 48%, transparent),
+      inset 0 1px 0 color-mix(in srgb, #ffffff 62%, transparent),
       0 16px 32px color-mix(in srgb, #02010a 62%, transparent);
     backdrop-filter: blur(18px);
   }
@@ -105,8 +105,8 @@ select {
     border: 1px solid color-mix(in srgb, #ffffff 18%, transparent);
     background: linear-gradient(
       140deg,
-      color-mix(in srgb, #ffffff 18%, transparent),
-      color-mix(in srgb, #ffffff 8%, transparent)
+      color-mix(in srgb, #ffffff 26%, transparent),
+      color-mix(in srgb, #ffffff 14%, transparent)
     );
     box-shadow: 0 12px 24px color-mix(in srgb, #070315 50%, transparent);
   }
@@ -116,8 +116,8 @@ select {
     align-items: center;
     gap: 0.5rem;
     border-radius: 999px;
-    border: 1px solid color-mix(in srgb, #ffffff 30%, transparent);
-    background: color-mix(in srgb, #ffffff 15%, transparent);
+    border: 1px solid color-mix(in srgb, #ffffff 42%, transparent);
+    background: color-mix(in srgb, #ffffff 24%, transparent);
     padding: 0.4rem 0.8rem;
     font-size: 0.74rem;
     font-weight: 700;

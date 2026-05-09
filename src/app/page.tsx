@@ -552,7 +552,7 @@ export default function Home() {
             <button
               type="button"
               onClick={connectWallet}
-              className="inline-flex min-h-11 items-center gap-2 rounded-xl border border-white/40 bg-white/20 px-4 text-sm font-bold text-white transition hover:bg-white/30"
+              className="inline-flex min-h-11 items-center gap-2 rounded-xl border border-white/80 bg-white/88 px-4 text-sm font-bold text-[#1a0c39] transition hover:bg-white"
               title={shortAccount}
             >
               <Wallet size={17} />
@@ -635,8 +635,8 @@ export default function Home() {
                     key={item.symbol}
                     className={`pill ${
                       item.symbol === asset
-                        ? "border-emerald-200/70 bg-emerald-200/30 text-emerald-50"
-                        : "border-white/30 bg-white/12"
+                        ? "border-emerald-100/90 bg-emerald-200/80 text-emerald-950"
+                        : "border-white/60 bg-white/35 text-[#1a0c39]"
                     }`}
                   >
                     {item.symbol}: {item.display}
@@ -742,7 +742,7 @@ export default function Home() {
                 type="button"
                 onClick={() => void runEscrowAction("release")}
                 disabled={isBusy || !escrowIdInput.trim()}
-                className="rounded-xl border border-emerald-200/50 bg-emerald-300/25 px-3 py-2 text-sm font-black text-emerald-50 transition hover:bg-emerald-300/35 disabled:cursor-not-allowed disabled:opacity-60"
+                className="rounded-xl border border-emerald-100/90 bg-emerald-200/85 px-3 py-2 text-sm font-black text-emerald-950 transition hover:bg-emerald-200 disabled:cursor-not-allowed disabled:opacity-60"
               >
                 Release to seller
               </button>
@@ -750,7 +750,7 @@ export default function Home() {
                 type="button"
                 onClick={() => void runEscrowAction("refund")}
                 disabled={isBusy || !escrowIdInput.trim()}
-                className="rounded-xl border border-sky-200/50 bg-sky-300/25 px-3 py-2 text-sm font-black text-sky-50 transition hover:bg-sky-300/35 disabled:cursor-not-allowed disabled:opacity-60"
+                className="rounded-xl border border-sky-100/90 bg-sky-200/85 px-3 py-2 text-sm font-black text-sky-950 transition hover:bg-sky-200 disabled:cursor-not-allowed disabled:opacity-60"
               >
                 Refund to buyer
               </button>
@@ -758,7 +758,7 @@ export default function Home() {
                 type="button"
                 onClick={() => void runEscrowAction("dispute")}
                 disabled={isBusy || !escrowIdInput.trim()}
-                className="rounded-xl border border-amber-200/55 bg-amber-300/25 px-3 py-2 text-sm font-black text-amber-50 transition hover:bg-amber-300/35 disabled:cursor-not-allowed disabled:opacity-60"
+                className="rounded-xl border border-amber-100/90 bg-amber-200/90 px-3 py-2 text-sm font-black text-amber-950 transition hover:bg-amber-200 disabled:cursor-not-allowed disabled:opacity-60"
               >
                 Open dispute
               </button>
@@ -766,7 +766,7 @@ export default function Home() {
                 type="button"
                 onClick={() => void runEscrowAction("resolve", { resolveToSeller })}
                 disabled={isBusy || !escrowIdInput.trim()}
-                className="rounded-xl border border-fuchsia-200/50 bg-fuchsia-300/25 px-3 py-2 text-sm font-black text-fuchsia-50 transition hover:bg-fuchsia-300/35 disabled:cursor-not-allowed disabled:opacity-60"
+                className="rounded-xl border border-fuchsia-100/90 bg-fuchsia-200/85 px-3 py-2 text-sm font-black text-fuchsia-950 transition hover:bg-fuchsia-200 disabled:cursor-not-allowed disabled:opacity-60"
               >
                 Resolve dispute
               </button>
@@ -809,7 +809,7 @@ export default function Home() {
             )}
 
             <div className="mt-4 rounded-xl border border-white/30 bg-white/10 px-3 py-3">
-              <p className="text-sm font-semibold text-[var(--muted)]">{status}</p>
+              <p className="text-sm font-semibold text-[var(--ink)]">{status}</p>
               {error ? (
                 <p className="mt-2 rounded-lg border border-[var(--danger)]/40 bg-[var(--danger)]/20 px-3 py-2 text-sm font-semibold text-rose-100">
                   {error}
@@ -820,7 +820,7 @@ export default function Home() {
                   href={explorerTx}
                   target="_blank"
                   rel="noreferrer"
-                  className="mt-2 inline-flex items-center gap-2 text-sm font-bold text-cyan-200"
+                  className="mt-2 inline-flex items-center gap-2 text-sm font-bold text-cyan-100 underline underline-offset-2"
                 >
                   View transaction
                   <ExternalLink size={14} />
@@ -846,7 +846,7 @@ function Field({ label, children }: { label: string; children: React.ReactNode }
 function MetricCard({ icon, label, value }: { icon: React.ReactNode; label: string; value: string }) {
   return (
     <div className="metric-card p-3">
-      <div className="flex items-center gap-2 text-[var(--muted)]">
+      <div className="flex items-center gap-2 text-[var(--ink)]">
         {icon}
         <p className="text-xs font-bold uppercase tracking-[0.08em]">{label}</p>
       </div>
