@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0f0523;
+  --foreground: #fbf8ff;
+  --panel: color-mix(in srgb, #ffffff 14%, transparent);
+  --panel-strong: color-mix(in srgb, #ffffff 22%, transparent);
+  --ink: #f8f5ff;
+  --muted: #d8d0ea;
+  --accent: #7cf5d8;
+  --danger: #ff8aa8;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-body);
+  --font-mono: var(--font-body);
+}
+
+body {
+  position: relative;
+  background:
+    radial-gradient(65rem 65rem at 10% -10%, #4f46e5 0%, transparent 55%),
+    radial-gradient(58rem 58rem at 95% 5%, #e11d8f 0%, transparent 52%),
+    radial-gradient(52rem 52rem at 20% 90%, #14b8a6 0%, transparent 45%),
+    radial-gradient(50rem 50rem at 92% 88%, #f59e0b 0%, transparent 38%),
+    linear-gradient(160deg, #12062b 0%, #14092f 45%, #110721 100%);
+  color: var(--foreground);
+  font-family: var(--font-body), "Segoe UI", sans-serif;
+  letter-spacing: 0;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    repeating-linear-gradient(
+      130deg,
+      color-mix(in srgb, #ffffff 6%, transparent) 0 1px,
+      transparent 1px 34px
+    );
+  opacity: 0.18;
+  z-index: -1;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+@layer components {
+  .field {
+    width: 100%;
+    min-height: 2.8rem;
+    border-radius: 0.85rem;
+    border: 1px solid color-mix(in srgb, #ffffff 24%, transparent);
+    background: color-mix(in srgb, #ffffff 9%, transparent);
+    padding: 0.72rem 0.92rem;
+    font-size: 0.94rem;
+    font-weight: 600;
+    color: var(--ink);
+    outline: none;
+    transition:
+      transform 180ms ease,
+      background 160ms ease,
+      border-color 160ms ease,
+      box-shadow 160ms ease;
+  }
+
+  .field::placeholder {
+    color: color-mix(in srgb, #f8f5ff 50%, transparent);
+    font-weight: 500;
+  }
+
+  .field:focus {
+    transform: translateY(-1px);
+    border-color: color-mix(in srgb, #7cf5d8 64%, transparent);
+    background: color-mix(in srgb, #ffffff 13%, transparent);
+    box-shadow:
+      0 10px 22px color-mix(in srgb, #0a0321 72%, transparent),
+      0 0 0 3px color-mix(in srgb, #7cf5d8 26%, transparent);
+  }
+
+  .glass {
+    border: 1px solid color-mix(in srgb, #ffffff 20%, transparent);
+    border-radius: 1.1rem;
+    background: linear-gradient(
+      170deg,
+      color-mix(in srgb, #ffffff 16%, transparent) 0%,
+      color-mix(in srgb, #ffffff 8%, transparent) 100%
+    );
+    box-shadow:
+      inset 0 1px 0 color-mix(in srgb, #ffffff 48%, transparent),
+      0 16px 32px color-mix(in srgb, #02010a 62%, transparent);
+    backdrop-filter: blur(18px);
+  }
+
+  .metric-card {
+    border-radius: 1rem;
+    border: 1px solid color-mix(in srgb, #ffffff 18%, transparent);
+    background: linear-gradient(
+      140deg,
+      color-mix(in srgb, #ffffff 18%, transparent),
+      color-mix(in srgb, #ffffff 8%, transparent)
+    );
+    box-shadow: 0 12px 24px color-mix(in srgb, #070315 50%, transparent);
+  }
+
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 999px;
+    border: 1px solid color-mix(in srgb, #ffffff 30%, transparent);
+    background: color-mix(in srgb, #ffffff 15%, transparent);
+    padding: 0.4rem 0.8rem;
+    font-size: 0.74rem;
+    font-weight: 700;
+    color: var(--ink);
+  }
+}
