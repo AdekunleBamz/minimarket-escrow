@@ -18,6 +18,10 @@ export const metadata: Metadata = {
   icons: {
     icon: "/minimarket-logo.svg",
   },
+  other: {
+    "talentapp:project_verification":
+      "c34f7e921fc53c00aec5e8716d278beb0cdbfeb62b568ea7b70ef26119e17ad4055a2d56cdf1d3264492e937370cb057aa3215efb27777b279b67cfe7bda8bcd",
+  },
 };
 
 export default function RootLayout({

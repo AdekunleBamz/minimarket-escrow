@@ -535,7 +535,6 @@ export default function Home() {
           <div className="flex min-w-0 items-center gap-3">
             <Image src="/minimarket-logo.svg" alt="MiniMarket Escrow" width={50} height={50} className="shrink-0 rounded-2xl" />
             <div className="min-w-0">
-              <p className="text-[0.7rem] font-bold uppercase tracking-[0.16em] text-[var(--muted)]">Project 3</p>
               <h1 className="truncate text-2xl font-black [font-family:var(--font-title)] sm:text-3xl">MiniMarket Escrow</h1>
               <p className="truncate text-sm text-[var(--muted)]">Escrow rails with real-time TVL and total volume on Celo.</p>
             </div>
