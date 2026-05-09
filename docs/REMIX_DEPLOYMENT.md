@@ -40,3 +40,9 @@ This contract exposes analytics directly:
 ## Verification
 
 Verify the contract on Celoscan with the same constructor value used in Remix.
+
+## Post-Deploy Smoke Check
+
+- Read `owner` from the deployed escrow contract in Remix.
+- Call `marketSnapshot` for USDm and confirm the returned values decode without errors.
+- Confirm `NEXT_PUBLIC_ESCROW_CONTRACT_ADDRESS` and `MINIMARKET_ESCROW_MAINNET_CONTRACT.address` point to the same mainnet deployment.
