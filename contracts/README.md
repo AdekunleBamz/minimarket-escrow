@@ -17,3 +17,7 @@ Key analytics:
 - `marketSnapshot(token)`: one-call dashboard metrics for app UI.
 
 Deployment guide: [docs/REMIX_DEPLOYMENT.md](../docs/REMIX_DEPLOYMENT.md)
+
+## Escrow Audit Notes
+
+When reviewing a deal, track the escrow ID, buyer, seller, arbiter, token address, and status together. The token address separates native CELO escrows from USDm/USDC/USDT escrows in analytics exports.
