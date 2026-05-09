@@ -45,7 +45,7 @@ import {
   resolveEscrowDispute,
   statusLabel,
   type EscrowTokenSymbol,
-} from "@bamzzstudio/minimarket-escrow-sdk";
+} from "@/lib/minimarket-sdk";
 import { MINI_DEFAULT_STABLE_TOKEN, MINIMARKET_ESCROW_MAINNET_CONTRACT } from "@/lib/market";
 
 type EthereumProvider = {
