@@ -23,6 +23,12 @@ The `.env.example` includes stable override fields in case your deployment wants
 - MiniPay sessions do not call `wallet_switchEthereumChain`.
 - Escrow funding uses `createTokenEscrow(...)` for stablecoin paths.
 
+## Stable Rail Checks
+
+- Confirm the chosen stablecoin address and decimals match the amount shown in the funding form.
+- Confirm the buyer approves the stablecoin before the escrow creation transaction is requested.
+- Confirm MiniPay sessions stay on Celo mainnet and use `createTokenEscrow(...)` for stable funding.
+
 ## Web Wallet Flow
 
 Normal browser wallets can use:
