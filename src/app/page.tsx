@@ -552,7 +552,7 @@ export default function Home() {
             <button
               type="button"
               onClick={connectWallet}
-              className="inline-flex min-h-11 items-center gap-2 rounded-xl border border-white/80 bg-white/88 px-4 text-sm font-bold text-[#1a0c39] transition hover:bg-white"
+              className="inline-flex min-h-11 items-center gap-2 rounded-xl border border-[#d8cfe8] bg-[#180a33] px-4 text-sm font-bold text-white transition hover:bg-[#28124e]"
               title={shortAccount}
             >
               <Wallet size={17} />
@@ -620,7 +620,7 @@ export default function Home() {
                     setDealLabel(item.note);
                     setAmount(item.amount);
                   }}
-                  className="rounded-xl border border-white/30 bg-white/10 px-3 py-2 text-left transition hover:bg-white/20"
+                  className="rounded-xl border border-[#d8cfe8] bg-white px-3 py-2 text-left text-[var(--ink)] transition hover:bg-[#fff4fb]"
                 >
                   <p className="truncate text-sm font-black">{item.label}</p>
                   <p className="mt-1 text-xs text-[var(--muted)]">{item.amount} • {item.note}</p>
@@ -636,7 +636,7 @@ export default function Home() {
                     className={`pill ${
                       item.symbol === asset
                         ? "border-emerald-100/90 bg-emerald-200/80 text-emerald-950"
-                        : "border-white/60 bg-white/35 text-[#1a0c39]"
+                        : "border-[#d8cfe8] bg-white text-[#180a33]"
                     }`}
                   >
                     {item.symbol}: {item.display}
@@ -731,7 +731,7 @@ export default function Home() {
                     setError("Escrow ID must be a whole number.");
                   }
                 }}
-                className="rounded-xl border border-white/40 bg-white/15 px-4 text-sm font-bold transition hover:bg-white/25"
+                className="rounded-xl border border-[#d8cfe8] bg-[#180a33] px-4 text-sm font-bold text-white transition hover:bg-[#28124e]"
               >
                 Load
               </button>
@@ -808,10 +808,10 @@ export default function Home() {
               </p>
             )}
 
-            <div className="mt-4 rounded-xl border border-white/30 bg-white/10 px-3 py-3">
+            <div className="mt-4 rounded-xl border border-[#d8cfe8] bg-white px-3 py-3">
               <p className="text-sm font-semibold text-[var(--ink)]">{status}</p>
               {error ? (
-                <p className="mt-2 rounded-lg border border-[var(--danger)]/40 bg-[var(--danger)]/20 px-3 py-2 text-sm font-semibold text-rose-100">
+                <p className="mt-2 rounded-lg border border-rose-300 bg-rose-50 px-3 py-2 text-sm font-semibold text-rose-900">
                   {error}
                 </p>
               ) : null}
@@ -820,7 +820,7 @@ export default function Home() {
                   href={explorerTx}
                   target="_blank"
                   rel="noreferrer"
-                  className="mt-2 inline-flex items-center gap-2 text-sm font-bold text-cyan-100 underline underline-offset-2"
+                  className="mt-2 inline-flex items-center gap-2 text-sm font-bold text-sky-700 underline underline-offset-2"
                 >
                   View transaction
                   <ExternalLink size={14} />
@@ -857,7 +857,7 @@ function MetricCard({ icon, label, value }: { icon: React.ReactNode; label: stri
 
 function Row({ label, value }: { label: string; value: string }) {
   return (
-    <div className="grid grid-cols-[5rem_minmax(0,1fr)] items-center gap-2 rounded-lg border border-white/25 bg-white/8 px-3 py-2">
+    <div className="grid grid-cols-[5rem_minmax(0,1fr)] items-center gap-2 rounded-lg border border-[#d8cfe8] bg-white px-3 py-2">
       <span className="text-[10px] font-bold uppercase tracking-[0.08em] text-[var(--muted)]">{label}</span>
       <span className="min-w-0 truncate text-right font-semibold text-[var(--ink)]">{value}</span>
     </div>
