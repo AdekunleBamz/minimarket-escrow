@@ -32,3 +32,14 @@ See [docs/REMIX_DEPLOYMENT.md](docs/REMIX_DEPLOYMENT.md).
 ## MiniPay
 
 MiniMarket Escrow auto-connects inside MiniPay, checks stable balances, and can default to a stable rail in MiniPay sessions. See [docs/MINIPAY_COMPATIBILITY.md](docs/MINIPAY_COMPATIBILITY.md).
+
+## Release Checks
+
+Before deploying to Vercel, run:
+
+```bash
+npm run lint
+npm run build
+```
+
+After deployment, create a small read-only review pass in a normal browser and in MiniPay. Confirm TVL, total volume, and the selected funding token match the intended Celo mainnet contract.
