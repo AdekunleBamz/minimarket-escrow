@@ -6,6 +6,7 @@
 - Confirm CELO and stablecoin rails are visible.
 - Confirm deal hash details update when buyer, seller, label, amount, or token changes.
 - Confirm live market metrics load for the selected stablecoin.
+- Confirm invalid seller or arbiter addresses are rejected before funding.
 
 ## MiniPay
 
