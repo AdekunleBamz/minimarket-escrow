@@ -6,3 +6,5 @@
 4. Native CELO escrows call `createNativeEscrow(...)`.
 5. Funded escrows can be released, refunded, disputed, or resolved.
 6. Market metrics update from contract analytics after settlement.
+
+Stablecoin approvals should match the exact escrow amount in token base units.
