@@ -10,3 +10,7 @@ MiniMarket Escrow uses public variables to select the Celo chain, escrow contrac
 | `NEXT_PUBLIC_ESCROW_STABLE_TOKEN` | Default USDm token address. |
 | `NEXT_PUBLIC_ESCROW_STABLE_SYMBOL` | Default stablecoin symbol shown in the UI. |
 | `NEXT_PUBLIC_ESCROW_STABLE_DECIMALS` | Default stablecoin decimals used for amount conversion. |
+
+## Unit Notes
+
+Native CELO escrow amounts use 18 decimals. Stablecoin amounts are converted with the selected token decimals before approval and escrow creation.
