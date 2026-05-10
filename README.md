@@ -39,6 +39,8 @@ MiniMarket Escrow auto-connects inside MiniPay, checks stable balances, and can 
 
 Manual wallet checks are listed in [docs/QA_NOTES.md](docs/QA_NOTES.md).
 
+The escrow lifecycle is outlined in [docs/ESCROW_FLOW.md](docs/ESCROW_FLOW.md).
+
 ## Release Checks
 
 Before deploying to Vercel, run:
