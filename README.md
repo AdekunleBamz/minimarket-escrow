@@ -47,3 +47,5 @@ npm run build
 ```
 
 After deployment, create a small read-only review pass in a normal browser and in MiniPay. Confirm TVL, total volume, and the selected funding token match the intended Celo mainnet contract.
+
+Use [docs/RELEASE_CHECKLIST.md](docs/RELEASE_CHECKLIST.md) as the full production readiness pass.
