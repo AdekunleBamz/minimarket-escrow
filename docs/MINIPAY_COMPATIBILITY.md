@@ -18,6 +18,7 @@ The `.env.example` includes stable override fields in case your deployment wants
 ## MiniPay Flow
 
 - The app detects MiniPay through `window.ethereum.isMiniPay` or the browser user agent.
+- The connected account still comes from `eth_requestAccounts` after detection.
 - The app auto-connects the MiniPay wallet on launch.
 - The app checks USDm, USDC, and USDT balances and can auto-prefer a stable rail with sufficient balance.
 - MiniPay sessions do not call `wallet_switchEthereumChain`.
