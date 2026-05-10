@@ -37,6 +37,8 @@ See [docs/REMIX_DEPLOYMENT.md](docs/REMIX_DEPLOYMENT.md).
 
 MiniMarket Escrow auto-connects inside MiniPay, checks stable balances, and can default to a stable rail in MiniPay sessions. See [docs/MINIPAY_COMPATIBILITY.md](docs/MINIPAY_COMPATIBILITY.md).
 
+Manual wallet checks are listed in [docs/QA_NOTES.md](docs/QA_NOTES.md).
+
 ## Release Checks
 
 Before deploying to Vercel, run:
