@@ -21,3 +21,5 @@ Deployment guide: [docs/REMIX_DEPLOYMENT.md](../docs/REMIX_DEPLOYMENT.md)
 ## Escrow Audit Notes
 
 When reviewing a deal, track the escrow ID, buyer, seller, arbiter, token address, and status together. The token address separates native CELO escrows from USDm/USDC/USDT escrows in analytics exports.
+
+See [docs/ESCROW_AUDIT.md](../docs/ESCROW_AUDIT.md) for the escrow field reference.
