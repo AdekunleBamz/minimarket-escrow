@@ -14,3 +14,7 @@ MiniMarket Escrow uses public variables to select the Celo chain, escrow contrac
 ## Unit Notes
 
 Native CELO escrow amounts use 18 decimals. Stablecoin amounts are converted with the selected token decimals before approval and escrow creation.
+
+## Vercel Notes
+
+Update the escrow contract address in Vercel before promoting a deployment that points to a new contract. Public variables are baked into the browser bundle at build time.
