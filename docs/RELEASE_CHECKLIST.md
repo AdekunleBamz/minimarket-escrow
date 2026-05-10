@@ -8,3 +8,4 @@
 - Open the dashboard inside MiniPay.
 - Confirm TVL and total volume load without decode errors.
 - Confirm the selected funding token matches the wallet mode.
+- Confirm a read-only contract call works on the production RPC path.
