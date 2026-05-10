@@ -28,6 +28,7 @@ The `.env.example` includes stable override fields in case your deployment wants
 
 - Confirm the chosen stablecoin address and decimals match the amount shown in the funding form.
 - Confirm the buyer approves the stablecoin before the escrow creation transaction is requested.
+- Confirm the approval spender is the deployed escrow contract address.
 - Confirm MiniPay sessions stay on Celo mainnet and use `createTokenEscrow(...)` for stable funding.
 
 ## Web Wallet Flow
