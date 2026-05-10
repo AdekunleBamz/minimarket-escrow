@@ -9,6 +9,8 @@ npm install
 npm run dev
 ```
 
+Keep local values in `.env.local`. The committed `.env.example` documents the public settings needed by the browser app.
+
 ## Environment
 
 Copy `.env.example` to `.env.local` and add the deployed escrow contract address after Remix deployment.
