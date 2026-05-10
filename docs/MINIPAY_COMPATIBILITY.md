@@ -39,3 +39,7 @@ Normal browser wallets can use:
 - Native CELO through `createNativeEscrow(...)`
 
 The dashboard reads live onchain analytics through `marketSnapshot(token)` to display TVL and total volume.
+
+## Reviewer Notes
+
+Share the escrow contract address and supported stablecoin list with reviewers so they can compare the funding screen against deployment configuration.
