@@ -23,6 +23,8 @@ NEXT_PUBLIC_ESCROW_STABLE_SYMBOL=USDm
 NEXT_PUBLIC_ESCROW_STABLE_DECIMALS=18
 ```
 
+See [docs/ENVIRONMENT.md](docs/ENVIRONMENT.md) for the purpose of each public variable.
+
 Mainnet escrow contract is also committed in code:
 
 - `src/lib/market.ts` -> `MINIMARKET_ESCROW_MAINNET_CONTRACT.address`
