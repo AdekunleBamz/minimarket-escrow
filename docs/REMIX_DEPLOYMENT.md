@@ -14,6 +14,8 @@ Recommended values:
 
 - `initialOwner_`: your owner wallet.
 
+Use an owner wallet that can safely manage any future contract administration or verification follow-up.
+
 ## App Env
 
 After deploying, set:
