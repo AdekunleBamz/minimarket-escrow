@@ -9,3 +9,4 @@
 - Confirm TVL and total volume load without decode errors.
 - Confirm the selected funding token matches the wallet mode.
 - Confirm a read-only contract call works on the production RPC path.
+- Attach one order id and explorer link to the release notes.
