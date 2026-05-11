@@ -8,3 +8,5 @@
 6. Market metrics update from contract analytics after settlement.
 
 Stablecoin approvals should match the exact escrow amount in token base units.
+
+Record the approval hash beside the escrow funding hash when a stablecoin allowance is required.
