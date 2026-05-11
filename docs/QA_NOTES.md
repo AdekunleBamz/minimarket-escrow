@@ -14,3 +14,4 @@
 - Confirm the wallet auto-connects.
 - Confirm stable balances are checked before funding.
 - Confirm MiniPay does not receive a chain switch prompt.
+- Save the order id used for each MiniPay smoke test.
