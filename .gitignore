@@ -34,6 +34,11 @@ yarn-error.log*
 .env*
 !.env.example
 
+# local MiniMarket mainnet test wallet harness
+/.minimarket-mainnet-test/
+/.env.minimarket-mainnet-test.local
+/scripts/minimarket-mainnet-test/
+
 # vercel
 .vercel
 
