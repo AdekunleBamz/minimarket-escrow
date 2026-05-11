@@ -13,3 +13,5 @@ Use escrow records and events to review deal state.
 | `status` | Current escrow lifecycle state. |
 
 Use the status labels in the SDK when exporting records so reviewers do not need to decode numeric enum values manually.
+
+Keep the deal id, buyer, seller, and transaction hash together in each audit note.
