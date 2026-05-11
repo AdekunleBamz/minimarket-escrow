@@ -52,3 +52,5 @@ Verify the contract on Celoscan with the same constructor value used in Remix.
 ## Deployment Record
 
 Record the escrow address, owner wallet, deployment transaction hash, and verified source link with the release notes.
+
+Include the Remix compiler version beside the escrow deployment hash.
