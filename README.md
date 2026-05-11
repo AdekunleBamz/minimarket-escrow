@@ -55,3 +55,5 @@ After deployment, create a small read-only review pass in a normal browser and i
 Use [docs/RELEASE_CHECKLIST.md](docs/RELEASE_CHECKLIST.md) as the full production readiness pass.
 
 Review [docs/SECURITY_NOTES.md](docs/SECURITY_NOTES.md) before changing contract or wallet settings.
+
+Keep release evidence linked by order id so support can match screenshots, explorer links, and audit notes quickly.
