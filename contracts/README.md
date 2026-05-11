@@ -23,3 +23,5 @@ Deployment guide: [docs/REMIX_DEPLOYMENT.md](../docs/REMIX_DEPLOYMENT.md)
 When reviewing a deal, track the escrow ID, buyer, seller, arbiter, token address, and status together. The token address separates native CELO escrows from USDm/USDC/USDT escrows in analytics exports.
 
 See [docs/ESCROW_AUDIT.md](../docs/ESCROW_AUDIT.md) for the escrow field reference.
+
+Record constructor inputs with the deployment hash before copying addresses into the app environment.
