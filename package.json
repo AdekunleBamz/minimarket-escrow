@@ -14,7 +14,12 @@
     "dev": "next dev --webpack",
     "build": "next build --webpack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test:mainnet:wallets": "node scripts/minimarket-mainnet-test/generate-wallets.mjs",
+    "test:mainnet:plan": "node scripts/minimarket-mainnet-test/fund-wallets.mjs --plan",
+    "test:mainnet:fund": "node scripts/minimarket-mainnet-test/fund-wallets.mjs",
+    "test:mainnet:interact": "node scripts/minimarket-mainnet-test/interaction-minimarket.mjs",
+    "test:mainnet:balances": "node scripts/minimarket-mainnet-test/check-balances.mjs"
   },
   "dependencies": {
     "lucide-react": "^1.14.0",
