@@ -1,6 +1,7 @@
 # Release Checklist
 
 - Run `npm run lint`.
+- Run `npm run typecheck`.
 - Run `npm run build`.
 - Confirm `NEXT_PUBLIC_ESCROW_CONTRACT_ADDRESS` matches the intended mainnet contract.
 - Confirm `MINIMARKET_ESCROW_MAINNET_CONTRACT.address` matches the same deployment.
