@@ -15,6 +15,7 @@
     "build": "next build --webpack",
     "start": "next start",
     "lint": "eslint",
+    "typecheck": "tsc --noEmit",
     "test:mainnet:wallets": "node scripts/minimarket-mainnet-test/generate-wallets.mjs",
     "test:mainnet:plan": "node scripts/minimarket-mainnet-test/fund-wallets.mjs --plan",
     "test:mainnet:fund": "node scripts/minimarket-mainnet-test/fund-wallets.mjs",
