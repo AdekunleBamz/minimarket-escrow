@@ -15,3 +15,8 @@
 - Confirm stable balances are checked before funding.
 - Confirm MiniPay does not receive a chain switch prompt.
 - Save the order id used for each MiniPay smoke test.
+
+## Pre-Release
+
+- Run `npm run typecheck` and resolve any errors before sharing a preview URL.
+- Confirm `NEXT_PUBLIC_ESCROW_CONTRACT_ADDRESS` and the hardcoded mainnet address in `src/lib/market.ts` point to the same deployment.
