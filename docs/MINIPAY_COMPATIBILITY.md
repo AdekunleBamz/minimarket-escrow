@@ -45,3 +45,5 @@ The dashboard reads live onchain analytics through `marketSnapshot(token)` to di
 Share the escrow contract address and supported stablecoin list with reviewers so they can compare the funding screen against deployment configuration.
 
 Capture the MiniPay app version used for funding, release, and refund smoke checks.
+
+Repeat the stable balance review after adding or changing a supported stablecoin address.
