@@ -4,3 +4,4 @@
 - Record the chain and wallet label used during the review.
 - Note any mismatch before asking the buyer to fund escrow.
 - Compare the buyer address in the UI, wallet, and explorer event.
+- Confirm the buyer address remains stable after a page refresh.
