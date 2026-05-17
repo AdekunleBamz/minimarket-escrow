@@ -1,6 +1,6 @@
 import type { Address } from "viem";
 
-/** Mainnet fallback contract used when NEXT_PUBLIC_ESCROW_CONTRACT_ADDRESS is not set. */
+/** Mainnet fallback contract used when NEXT_PUBLIC_ESCROW_CONTRACT_ADDRESS is not set. Keep it synced with release docs. */
 export const MINIMARKET_ESCROW_MAINNET_CONTRACT = {
   address: "0x4b82B2b2c98674E29AF17d1bceB80C5142FA498c" as Address,
 } as const;
