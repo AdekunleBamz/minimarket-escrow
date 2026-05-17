@@ -54,3 +54,5 @@ Verify the contract on Celoscan with the same constructor value used in Remix.
 Record the escrow address, owner wallet, deployment transaction hash, and verified source link with the release notes.
 
 Include the Remix compiler version beside the escrow deployment hash.
+
+Save the verification URL before promoting a deployment that changes the app fallback address.
