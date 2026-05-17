@@ -4,3 +4,4 @@
 - Capture the order id, buyer address, seller address, and last transaction hash.
 - Store dispute notes outside the production wallet session.
 - Capture the arbiter address before testing a dispute path.
+- Confirm dispute notes include the latest onchain escrow state.
