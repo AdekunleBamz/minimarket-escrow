@@ -4,3 +4,4 @@
 - Confirm the empty state gives a next action without promising inventory.
 - Review the state on mobile width before release.
 - Save a screenshot if the marketplace empty copy changes.
+- Confirm the empty state does not show stale order metrics.
