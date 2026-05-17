@@ -4,3 +4,4 @@
 - Confirm the docs mention any wallet or network limitation discovered.
 - Keep the release note separate from customer-facing copy.
 - Include the wallet type used for the release-day escrow check.
+- Capture the escrow contract address used for release-day evidence.
