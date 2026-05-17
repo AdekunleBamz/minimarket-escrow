@@ -4,3 +4,4 @@
 - Compare the id before and after a page refresh.
 - Use the stable id in support notes instead of customer names.
 - Compare the order id in the form, audit note, and explorer event.
+- Confirm edited order details produce updated deal evidence before funding.
