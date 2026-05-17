@@ -4,3 +4,4 @@
 - Confirm links point to the same network used in the wallet.
 - Note any explorer route that opens an empty address or hash page.
 - Store the explorer URL beside the reviewed order id.
+- Open explorer links in a fresh tab to catch session-only redirects.
