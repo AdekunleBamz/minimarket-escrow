@@ -4,3 +4,4 @@
 - Keep status text consistent between the order card and detail view.
 - Capture a screenshot when a state transition changes copy.
 - Record the onchain state value used for each label.
+- Confirm resolved dispute states name the final recipient clearly.
