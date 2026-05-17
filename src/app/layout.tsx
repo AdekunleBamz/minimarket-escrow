@@ -14,6 +14,7 @@ const bodyFont = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: "MiniMarket Escrow",
+  applicationName: "MiniMarket Escrow",
   description: "Colorful Celo escrow desk with live TVL and total volume analytics.",
   icons: {
     icon: "/minimarket-logo.svg",
