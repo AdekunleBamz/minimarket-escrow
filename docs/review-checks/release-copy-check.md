@@ -4,3 +4,4 @@
 - Make sure the copy names the seller as the recipient.
 - Confirm the final confirmation screen does not imply a reversible transfer.
 - Save the release confirmation copy with the reviewed order id.
+- Confirm release copy includes enough context to distinguish the order.
