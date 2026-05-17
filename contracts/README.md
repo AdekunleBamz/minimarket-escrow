@@ -25,3 +25,5 @@ When reviewing a deal, track the escrow ID, buyer, seller, arbiter, token addres
 See [docs/ESCROW_AUDIT.md](../docs/ESCROW_AUDIT.md) for the escrow field reference.
 
 Record constructor inputs with the deployment hash before copying addresses into the app environment.
+
+Keep the verified source link with the escrow field reference when handing off audit notes.
