@@ -5,7 +5,7 @@ MiniMarket Escrow is a colorful MiniPay + web escrow app for Celo. Buyers can lo
 ## Local Development
 
 ```bash
-npm install
+npm ci
 npm run dev
 ```
 
