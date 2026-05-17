@@ -4,3 +4,4 @@
 - Confirm the displayed token symbol matches the wallet confirmation.
 - Note any fallback fee currency used in the review notes.
 - Capture the selected fee token symbol before submitting.
+- Compare 6-decimal and 18-decimal token amounts during fee review.
