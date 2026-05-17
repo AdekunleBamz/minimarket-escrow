@@ -12,3 +12,5 @@ Stablecoin approvals should match the exact escrow amount in token base units.
 USDm uses 18 decimals; USDC and USDT use 6 decimals. Use the configured token decimals when converting the human-readable amount before calling approve.
 
 Record the approval hash beside the escrow funding hash when a stablecoin allowance is required.
+
+If approval succeeds but escrow creation fails, keep both hashes in support evidence for reconciliation.
