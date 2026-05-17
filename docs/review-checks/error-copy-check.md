@@ -4,3 +4,4 @@
 - Confirm the copy explains the next safe action.
 - Avoid recording private wallet details in error screenshots.
 - Save the exact user-visible error text in QA notes.
+- Confirm rejected wallet prompts do not read like completed escrow actions.
