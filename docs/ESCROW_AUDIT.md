@@ -15,3 +15,5 @@ Use escrow records and events to review deal state.
 Use the status labels in the SDK when exporting records so reviewers do not need to decode numeric enum values manually.
 
 Keep the deal id, buyer, seller, and transaction hash together in each audit note.
+
+Attach the public explorer link whenever an escrow status change is copied into an audit note.
