@@ -20,3 +20,5 @@ Native CELO escrow amounts use 18 decimals. Stablecoin amounts are converted wit
 Update the escrow contract address in Vercel before promoting a deployment that points to a new contract. Public variables are baked into the browser bundle at build time.
 
 Record the Vercel environment, reviewer, and deploy target whenever escrow variables change.
+
+Compare Vercel and local preview values before sharing a review link so stale escrow addresses are caught early.
