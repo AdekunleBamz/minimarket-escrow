@@ -3,6 +3,7 @@
 ## Browser Wallet
 
 - Connect a Celo-compatible wallet.
+- Refresh once after connecting and confirm the order context remains understandable.
 - Confirm CELO and stablecoin rails are visible.
 - Confirm deal hash details update when buyer, seller, label, amount, or token changes.
 - Confirm live market metrics load for the selected stablecoin.
