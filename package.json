@@ -2,6 +2,13 @@
   "name": "minimarket-escrow",
   "version": "0.1.0",
   "description": "MiniPay and browser escrow desk for Celo marketplace deals.",
+  "keywords": [
+    "minimarket",
+    "celo",
+    "minipay",
+    "escrow",
+    "marketplace"
+  ],
   "private": true,
   "repository": {
     "type": "git",
